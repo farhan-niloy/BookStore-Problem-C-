@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    std::cout<<"Enter two numbers: " <<std::endl;
+    int v1, v2;
+    std::cin>>v1>>v2;
+    std::cout<<"The sum of " <<v1 <<" and " <<v2 <<" is: " <<v1+v2 <<std::endl;
+    
     return 0;
+    
+    
 }
